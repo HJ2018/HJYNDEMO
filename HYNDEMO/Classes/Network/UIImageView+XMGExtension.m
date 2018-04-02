@@ -13,21 +13,41 @@
 @implementation UIImageView (XMGExtension)
 
 
-- (void)setURLImageWithURL: (NSURL *)url progress:(void(^)(CGFloat progress))progress complete: (void(^)())complete {
+- (void)setURLImageWithURL: (NSURL *)url progress:(void(^)(CGFloat progress))progress complete: (void(^)(void))complete {
+//
+//    [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
+//        if (progress != nil)
+//        {
+//            progress(1.0 * receivedSize / expectedSize);
+//        }
+//
+//    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+//        self.image = image;
+//        if (complete != nil)
+//        {
+//            complete();
+//        }
+//    }];
+//
+    
+    [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
 
-    [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         if (progress != nil)
         {
             progress(1.0 * receivedSize / expectedSize);
         }
-
-    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        
+    } completed:^(UIImage * _Nullable image, NSError * _Nullable error, SDImageCacheType cacheType, NSURL * _Nullable imageURL) {
+        
         self.image = image;
         if (complete != nil)
         {
             complete();
         }
+        
     }];
+
+    
 
 }
 
