@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* HYNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HYNAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HYNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HYNViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,14 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		777EE5BF91C24110B10D1C2B /* Pods_HYNDEMO_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FF9BE6175C228EA1EFF032 /* Pods_HYNDEMO_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A13CC6042071CE6600D52B75 /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5EC2071CE6500D52B75 /* TestVC2.m */; };
+		A13CC6082071CE6600D52B75 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5F42071CE6500D52B75 /* TestVC.m */; };
+		A13CC6092071CE6600D52B75 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5FA2071CE6500D52B75 /* XMGTabBarController.m */; };
+		A13CC60A2071CE6600D52B75 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5FB2071CE6500D52B75 /* XMGNavigationController.m */; };
+		A13CC60B2071CE6600D52B75 /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5FD2071CE6500D52B75 /* XMGNavBar.m */; };
+		A13CC60C2071CE6600D52B75 /* XMGMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13CC5FE2071CE6500D52B75 /* XMGMiddleView.xib */; };
+		A13CC60D2071CE6600D52B75 /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC5FF2071CE6500D52B75 /* XMGTabBar.m */; };
+		A13CC60E2071CE6600D52B75 /* XMGMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC6032071CE6500D52B75 /* XMGMiddleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +57,6 @@
 		6003F59B195388D20070C39A /* HYNDEMO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* HYNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* HYNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HYNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HYNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HYNDEMO_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYNDEMO_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -64,6 +69,21 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8096E7773454D4AC3253EF5D /* Pods-HYNDEMO_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNDEMO_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYNDEMO_Example/Pods-HYNDEMO_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13CC5EC2071CE6500D52B75 /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		A13CC5ED2071CE6500D52B75 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		A13CC5F42071CE6500D52B75 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		A13CC5F52071CE6500D52B75 /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		A13CC5F82071CE6500D52B75 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
+		A13CC5F92071CE6500D52B75 /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
+		A13CC5FA2071CE6500D52B75 /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
+		A13CC5FB2071CE6500D52B75 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
+		A13CC5FD2071CE6500D52B75 /* XMGNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavBar.m; sourceTree = "<group>"; };
+		A13CC5FE2071CE6500D52B75 /* XMGMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGMiddleView.xib; sourceTree = "<group>"; };
+		A13CC5FF2071CE6500D52B75 /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
+		A13CC6002071CE6500D52B75 /* XMGMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMiddleView.h; sourceTree = "<group>"; };
+		A13CC6012071CE6500D52B75 /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
+		A13CC6022071CE6500D52B75 /* XMGNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavBar.h; sourceTree = "<group>"; };
+		A13CC6032071CE6500D52B75 /* XMGMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMiddleView.m; sourceTree = "<group>"; };
 		A99416C7A67B302C2DD404C6 /* Pods-HYNDEMO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNDEMO_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYNDEMO_Tests/Pods-HYNDEMO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E0FF9BE6175C228EA1EFF032 /* Pods_HYNDEMO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNDEMO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9D6B25A16C41F0F7CD9972 /* Pods-HYNDEMO_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNDEMO_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYNDEMO_Example/Pods-HYNDEMO_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,11 +152,10 @@
 		6003F593195388D20070C39A /* Example for HYNDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				A13CC5EB2071CE6500D52B75 /* Classes */,
 				6003F59C195388D20070C39A /* HYNAppDelegate.h */,
 				6003F59D195388D20070C39A /* HYNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HYNViewController.h */,
-				6003F5A6195388D20070C39A /* HYNViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -183,6 +202,52 @@
 				64DE88C220B8B87CDB97F906 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		A13CC5EB2071CE6500D52B75 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A13CC5EC2071CE6500D52B75 /* TestVC2.m */,
+				A13CC5ED2071CE6500D52B75 /* TestVC.h */,
+				A13CC5F42071CE6500D52B75 /* TestVC.m */,
+				A13CC5F52071CE6500D52B75 /* TestVC2.h */,
+				A13CC5F62071CE6500D52B75 /* MainModule */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A13CC5F62071CE6500D52B75 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				A13CC5F72071CE6500D52B75 /* Controller */,
+				A13CC5FC2071CE6500D52B75 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		A13CC5F72071CE6500D52B75 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A13CC5F82071CE6500D52B75 /* XMGNavigationController.h */,
+				A13CC5F92071CE6500D52B75 /* XMGTabBarController.h */,
+				A13CC5FA2071CE6500D52B75 /* XMGTabBarController.m */,
+				A13CC5FB2071CE6500D52B75 /* XMGNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A13CC5FC2071CE6500D52B75 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A13CC5FD2071CE6500D52B75 /* XMGNavBar.m */,
+				A13CC5FE2071CE6500D52B75 /* XMGMiddleView.xib */,
+				A13CC5FF2071CE6500D52B75 /* XMGTabBar.m */,
+				A13CC6002071CE6500D52B75 /* XMGMiddleView.h */,
+				A13CC6012071CE6500D52B75 /* XMGTabBar.h */,
+				A13CC6022071CE6500D52B75 /* XMGNavBar.h */,
+				A13CC6032071CE6500D52B75 /* XMGMiddleView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F72B78C7A0DFAD75C114204B /* Pods */ = {
@@ -281,6 +346,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				A13CC60C2071CE6600D52B75 /* XMGMiddleView.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -323,10 +389,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HYNDEMO_Example/Pods-HYNDEMO_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HYNDEMO/HYNDEMO.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYNDEMO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -403,9 +471,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13CC60D2071CE6600D52B75 /* XMGTabBar.m in Sources */,
 				6003F59E195388D20070C39A /* HYNAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HYNViewController.m in Sources */,
+				A13CC60A2071CE6600D52B75 /* XMGNavigationController.m in Sources */,
+				A13CC6082071CE6600D52B75 /* TestVC.m in Sources */,
+				A13CC6092071CE6600D52B75 /* XMGTabBarController.m in Sources */,
+				A13CC60B2071CE6600D52B75 /* XMGNavBar.m in Sources */,
+				A13CC60E2071CE6600D52B75 /* XMGMiddleView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				A13CC6042071CE6600D52B75 /* TestVC2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
