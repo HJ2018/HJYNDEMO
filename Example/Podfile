@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYNDEMO_Example' do
+  pod 'HYNDEMO', :path => '../'
+
+  target 'HYNDEMO_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
