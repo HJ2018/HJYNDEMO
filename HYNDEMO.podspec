@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYNDEMO'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = 'HYNDEMO.'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,6 @@ HYNDEMO.分类使用很方便
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'AFNetworking'
+    s.dependency 'SDWebImage'
 end
