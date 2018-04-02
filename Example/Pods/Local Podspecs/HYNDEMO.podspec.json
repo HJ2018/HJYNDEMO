@@ -1,6 +1,6 @@
 {
   "name": "HYNDEMO",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "HYNDEMO.",
   "description": "HYNDEMO.分类使用很方便",
   "homepage": "https://github.com/HJ2018/HJYNDEMO",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/HJ2018/HJYNDEMO.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
