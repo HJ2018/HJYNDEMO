@@ -46,6 +46,8 @@ HYNDEMO.分类使用很方便
       
       n.dependency 'AFNetworking'
       n.dependency 'SDWebImage'
+       n.dependency 'HYNDEMO/Classes/Category/**/*'
+
       
       
   end
