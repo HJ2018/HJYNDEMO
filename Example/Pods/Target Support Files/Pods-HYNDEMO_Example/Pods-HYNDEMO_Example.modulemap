@@ -1,0 +1,6 @@
+framework module Pods_HYNDEMO_Example {
+  umbrella header "Pods-HYNDEMO_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
