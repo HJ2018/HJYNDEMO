@@ -1,11 +1,12 @@
 use_frameworks!
 
 
-source 'git@github.com:HJ2018/HYNBase.git'
-source 'https://github.com/CocoaPods/Specs.git'
+#source 'git@github.com:HJ2018/HYNBase.git'
+#source 'https://github.com/CocoaPods/Specs.git'
 target 'HYNDEMO_Example' do
-  pod 'HYNDEMO'
-  pod 'MJExtension'
+#  pod 'HYNDEMO'
+#  pod 'MJExtension'
+ pod 'HYNDEMO', :path => '../'
 
   target 'HYNDEMO_Tests' do
     inherit! :search_paths

@@ -1,9 +1,9 @@
 {
   "name": "HYNDEMO",
   "version": "0.1.0",
-  "summary": "A short description of HYNDEMO.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/HJ2018/HYNDEMO",
+  "summary": "HYNDEMO.",
+  "description": "HYNDEMO.分类使用很方便",
+  "homepage": "https://github.com/HJ2018/HJYNDEMO",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "HJ2018": "597079127@qq.com"
   },
   "source": {
-    "git": "https://github.com/HJ2018/HYNDEMO.git",
+    "git": "https://github.com/HJ2018/HJYNDEMO.git",
     "tag": "0.1.0"
   },
   "platforms": {
