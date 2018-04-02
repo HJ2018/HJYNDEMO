@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIImage+XMGImage.h"
+//#import "UIImage+XMGImage.h"
 
 @interface UIImageView (XMGExtension)
 
