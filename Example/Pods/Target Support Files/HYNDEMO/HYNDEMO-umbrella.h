@@ -16,8 +16,6 @@
 #import "CALayer+PauseAimate.h"
 #import "UIImage+XMGImage.h"
 #import "UIView+XMGLayout.h"
-#import "UIImageView+XMGExtension.h"
-#import "XMGSessionManager.h"
 #import "XMGAlertTool.h"
 #import "XMGCacheTool.h"
 #import "XMGDeviceMessage.h"
