@@ -60,19 +60,19 @@
 		426F10E7462FD9DCB5BF63E9B1FCEF0A /* Pods-HYNDEMO_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNDEMO_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		42ED43C2E9C2A4C8C00CFC0EB5B629E8 /* Pods-HYNDEMO_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNDEMO_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5F83464E55A72E643FCA4C59C62041A6 /* XMGCacheTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGCacheTool.m; sourceTree = "<group>"; };
-		61D18CA3E6DDD0F071FD9528D91BC8DF /* Pods_HYNDEMO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNDEMO_Example.framework; path = "Pods-HYNDEMO_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D18CA3E6DDD0F071FD9528D91BC8DF /* Pods_HYNDEMO_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNDEMO_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		637C7FCBDAEBCBDE567B5A1BB85FA857 /* HYNDEMO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6686FCB2DCBB7D0C8C4C607E89D6B412 /* Pods-HYNDEMO_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNDEMO_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A9D2E7A86CF5A852792B3735CB38B05 /* XMGNoticeLocal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNoticeLocal.h; sourceTree = "<group>"; };
 		6F599CA6D14C579B1587E6F18FBFBE17 /* XMGConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGConst.h; sourceTree = "<group>"; };
-		740F54439DF69CC16540BAE875383D15 /* HYNDEMO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYNDEMO.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		740F54439DF69CC16540BAE875383D15 /* HYNDEMO.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HYNDEMO.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		87FE6990ABD54FA5D158D57FB1CFE755 /* Pods-HYNDEMO_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNDEMO_Example-dummy.m"; sourceTree = "<group>"; };
 		886244D220795758C09001A7C45431A0 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XMGImage.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9455513F01A4BE497CE4B89987EAA6E4 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGLayout.h"; sourceTree = "<group>"; };
 		9A44FE963ED76197F072EE7BC38C50A7 /* XMGAlertTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGAlertTool.h; sourceTree = "<group>"; };
-		9F1B94C5E48B753D36FBFC041F6AAB49 /* Pods_HYNDEMO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNDEMO_Tests.framework; path = "Pods-HYNDEMO_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1B94C5E48B753D36FBFC041F6AAB49 /* Pods_HYNDEMO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNDEMO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8E49CA4B2AA6BD5B64874F8DD188F4 /* Pods-HYNDEMO_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNDEMO_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AD2D8A9472DA3F8AA8D8921E77A9BE40 /* Pods-HYNDEMO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNDEMO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B132E305F7424873CAF68D0A96F1D55D /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XMGImage.m"; sourceTree = "<group>"; };
@@ -86,10 +86,10 @@
 		C74ACAB3FDA0F2B376B4501B55BD940C /* HYNDEMO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNDEMO.modulemap; sourceTree = "<group>"; };
 		C8BDC3578BFBD43161D745D5E3583AC7 /* Pods-HYNDEMO_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNDEMO_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE0CCB73BC5C27D68EAD680384CEA292 /* XMGNoticeLocal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNoticeLocal.m; sourceTree = "<group>"; };
-		CFF549AAF676E5CFFB946DF7312C8A77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		D5A41866938CCD1A36F2CFB657E25BE7 /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNDEMO.framework; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF549AAF676E5CFFB946DF7312C8A77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D5A41866938CCD1A36F2CFB657E25BE7 /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F533801B0FD2F9BFB0D56C0A818530 /* HYNDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNDEMO-dummy.m"; sourceTree = "<group>"; };
-		DADB0C7598107F08DF3B8FC3F8C1267D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DADB0C7598107F08DF3B8FC3F8C1267D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DAFAA0C2A81598169E7AEA89775B6840 /* Pods-HYNDEMO_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNDEMO_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6703128D4E763B8F365812E4D0174BD /* Base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
 		E6DDE5A084B19E72782E0F2C54EB792D /* HYNDEMO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-prefix.pch"; sourceTree = "<group>"; };
@@ -176,11 +176,11 @@
 		33A0F0F74EDF47B3061C33CDCEFF6FDA /* HYNDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				1B8322D9F88D8CDBB0367BBD8A870644 /* Tool */,
 				7BDE45A3C4BC2CC6DAC8FBAB703B4766 /* Base */,
 				C5E76BFE7635DA597AA2BF07D6514636 /* Category */,
 				0D02FC392D5AD1EBA25D2784BA75BE67 /* Pod */,
 				9B50D4A3AE5916CEBCC9E432A2DAAE4A /* Support Files */,
-				1B8322D9F88D8CDBB0367BBD8A870644 /* Tool */,
 			);
 			name = HYNDEMO;
 			path = ../..;
