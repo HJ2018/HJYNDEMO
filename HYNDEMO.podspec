@@ -33,26 +33,20 @@ HYNDEMO.分类使用很方便
 #s.source_files = 'HYNDEMO/Classes/**/*'
   
   s.subspec 'Base' do |b|
-      
       s.source_files = 'HYNDEMO/Classes/Base/**/*'
-      
   end
   
   s.subspec 'Category' do |c|
-      
       c.source_files = 'HYNDEMO/Classes/Category/**/*'
-      
   end
   
-  
   s.subspec 'Network' do |n|
-      
       n.source_files = 'HYNDEMO/Classes/Network/**/*'
-      
+      n.dependency 'AFNetworking'
+      n.dependency 'SDWebImage'
   end
   
   s.subspec 'Tool' do |t|
-      
       t.source_files = 'HYNDEMO/Classes/Tool/**/*'
       
   end
@@ -63,6 +57,6 @@ HYNDEMO.分类使用很方便
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-    s.dependency 'AFNetworking'
-    s.dependency 'SDWebImage'
+  # s.dependency 'AFNetworking'
+  # s.dependency 'SDWebImage'
 end
