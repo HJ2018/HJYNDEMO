@@ -1,6 +1,6 @@
 {
   "name": "HYNDEMO",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "summary": "HYNDEMO.",
   "description": "HYNDEMO.分类使用很方便",
   "homepage": "https://github.com/HJ2018/HJYNDEMO",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/HJ2018/HJYNDEMO.git",
-    "tag": "1.1.7"
+    "tag": "1.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,7 +25,7 @@
     },
     {
       "name": "Category",
-      "source_files": "HYNDEMO/Category/**/*"
+      "source_files": "HYNDEMO/Classes/Category/**/*"
     },
     {
       "name": "Network",
@@ -33,17 +33,15 @@
       "dependencies": {
         "AFNetworking": [
 
+        ],
+        "SDWebImage": [
+
         ]
       }
     },
     {
       "name": "Tool",
-      "source_files": "HYNDEMO/Classes/Tool/**/*",
-      "dependencies": {
-        "SDWebImage": [
-
-        ]
-      }
+      "source_files": "HYNDEMO/Classes/Tool/**/*"
     }
   ]
 }
