@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYNDEMO'
-  s.version          = '1.2.1'
+  s.version          = '1.2.2'
   s.summary          = 'HYNDEMO.'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,9 @@ HYNDEMO.分类使用很方便
   end
   
   s.subspec 'Network' do |n|
+      
       n.source_files = 'HYNDEMO/Classes/Network/**/*'
+      
       n.dependency 'AFNetworking'
       n.dependency 'SDWebImage'
       

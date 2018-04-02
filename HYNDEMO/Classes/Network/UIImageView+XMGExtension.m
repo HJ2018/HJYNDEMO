@@ -14,21 +14,6 @@
 
 
 - (void)setURLImageWithURL: (NSURL *)url progress:(void(^)(CGFloat progress))progress complete: (void(^)(void))complete {
-//
-//    [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize) {
-//        if (progress != nil)
-//        {
-//            progress(1.0 * receivedSize / expectedSize);
-//        }
-//
-//    } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-//        self.image = image;
-//        if (complete != nil)
-//        {
-//            complete();
-//        }
-//    }];
-//
     
     [self sd_setImageWithURL:url placeholderImage:nil options:0 progress:^(NSInteger receivedSize, NSInteger expectedSize, NSURL * _Nullable targetURL) {
 
