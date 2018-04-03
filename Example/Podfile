@@ -1,8 +1,9 @@
+
+source 'git@github.com:HJ2018/HYNBase.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 use_frameworks!
 
-
-#source 'git@github.com:HJ2018/HYNBase.git'
-#source 'https://github.com/CocoaPods/Specs.git'
 target 'HYNDEMO_Example' do
 
  pod 'HYNDEMO', :path => '../'
