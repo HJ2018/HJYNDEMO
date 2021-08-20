@@ -37,6 +37,17 @@
 #define kScreenWidth [[UIScreen mainScreen] bounds].size.width
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height
 
+
+#define iPhoneX (kScreenHeight >= 812.0)
+
+//iPhoneX状态栏的高度 44
+#define kState_Height (iPhoneX ? 44.0 : 20.0)
+//NavigationBar的高度 44
+#define kNavigationBar_Height 44.0
+#define SafeAreaTopHeight (kScreenHeight >= 812.0 ? 88 : 64)
+#define statusTopHeight (kScreenHeight >= 812.0 ? 44 : 20)
+#define SafeAreaTabBarpHeight (kScreenHeight >= 812.0 ? 83 : 49)
+
 // 弱引用
 #define kWeakSelf __weak typeof(self) weakSelf = self;
 
